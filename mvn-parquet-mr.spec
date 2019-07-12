@@ -4,13 +4,15 @@
 #
 Name     : mvn-parquet-mr
 Version  : 1.10.0
-Release  : 2
+Release  : 3
 URL      : https://github.com/apache/parquet-mr/archive/apache-parquet-1.10.0.tar.gz
 Source0  : https://github.com/apache/parquet-mr/archive/apache-parquet-1.10.0.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar
 Source2  : https://repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.pom
-Source3  : https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.jar
-Source4  : https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.pom
+Source3  : https://repo1.maven.org/maven2/com/twitter/parquet/1.6.0/parquet-1.6.0.pom
+Source4  : https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.jar
+Source5  : https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.pom
+Source6  : https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.10.0/parquet-1.10.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -39,11 +41,17 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/twitter/parquet-had
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0
 cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/twitter/parquet/1.6.0
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/com/twitter/parquet/1.6.0
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
 cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet/1.10.0
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parquet/1.10.0
 
 
 %files
@@ -53,5 +61,7 @@ cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/parquet/parq
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar
 /usr/share/java/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.pom
+/usr/share/java/.m2/repository/com/twitter/parquet/1.6.0/parquet-1.6.0.pom
 /usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.jar
 /usr/share/java/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.pom
+/usr/share/java/.m2/repository/org/apache/parquet/parquet/1.10.0/parquet-1.10.0.pom
