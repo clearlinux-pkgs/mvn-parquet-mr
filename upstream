@@ -13,8 +13,6 @@ ee5ea01f9ddb99221daa68316291075ae44dc012/parquet-common-1.10.0.pom
 301fbb621e08ed08fd67d6e36f58a444f8b7ac5a/parquet-jackson-1.10.0.pom
 25760833b2dae90b70d5d0d599966ce9789b02b6/parquet-column-1.10.0.jar
 26fd6fa90b203102bbda0354649c57ba2a4579fe/parquet-column-1.10.0.pom
-d39c3e89b86293ce98a8b7e6625b7920d630c5f1/parquet-format-2.4.0.pom
-d4508d385899dfb2dcecdc08fc5e4a5e6b747057/parquet-format-2.4.0.jar
 4ed2c46a4794a180ff08f02732e8f4ea02f3d1ce/parquet-avro-1.10.0.jar
 174e46aec3941f53fad43d95f66b8dee335db888/parquet-avro-1.10.0.pom
 13085e8888e4bd73fdfa003b6252bb4d80513f63/parquet-1.10.0.pom
