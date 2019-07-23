@@ -5,3 +5,16 @@ b76faa3a18f46e407a5de91f4b4d151148634084/parquet-hadoop-bundle-1.6.0.pom
 ef750bdea3195b7956f235ea44aafc457bc6a606/parquet-hadoop-1.10.0.pom
 0d7307884e3222f1b1d7effc4c02ef8a56df3c80/parquet-1.6.0.pom
 13085e8888e4bd73fdfa003b6252bb4d80513f63/parquet-1.10.0.pom
+ed6c12835d22ef15f2bd3de0100ed4be1dc769c9/parquet-encoding-1.10.0.jar
+10145e1f40ae64caeb4b4ecbb85d60cc7b6ba655/parquet-encoding-1.10.0.pom
+a0e1edfd215d988f7233aad0b0336cf51fa2b20f/parquet-common-1.10.0.jar
+ee5ea01f9ddb99221daa68316291075ae44dc012/parquet-common-1.10.0.pom
+9bf803cc835be1ea52d5f656682309153153468b/parquet-jackson-1.10.0.jar
+301fbb621e08ed08fd67d6e36f58a444f8b7ac5a/parquet-jackson-1.10.0.pom
+25760833b2dae90b70d5d0d599966ce9789b02b6/parquet-column-1.10.0.jar
+26fd6fa90b203102bbda0354649c57ba2a4579fe/parquet-column-1.10.0.pom
+d39c3e89b86293ce98a8b7e6625b7920d630c5f1/parquet-format-2.4.0.pom
+d4508d385899dfb2dcecdc08fc5e4a5e6b747057/parquet-format-2.4.0.jar
+4ed2c46a4794a180ff08f02732e8f4ea02f3d1ce/parquet-avro-1.10.0.jar
+174e46aec3941f53fad43d95f66b8dee335db888/parquet-avro-1.10.0.pom
+13085e8888e4bd73fdfa003b6252bb4d80513f63/parquet-1.10.0.pom
