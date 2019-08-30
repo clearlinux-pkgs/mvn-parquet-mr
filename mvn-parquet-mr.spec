@@ -4,7 +4,7 @@
 #
 Name     : mvn-parquet-mr
 Version  : 1.10.0
-Release  : 5
+Release  : 6
 URL      : https://github.com/apache/parquet-mr/archive/apache-parquet-1.10.0.tar.gz
 Source0  : https://github.com/apache/parquet-mr/archive/apache-parquet-1.10.0.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-avro/1.10.0/parquet-avro-1.10.0.jar
